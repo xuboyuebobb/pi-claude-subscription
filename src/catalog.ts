@@ -45,6 +45,28 @@ export const CATALOG = [
 		}
 	},
 	{
+		"id": "claude-fable-5-2",
+		"name": "Claude Fable 5.2",
+		"reasoning": true,
+		"input": [
+			"text",
+			"image"
+		],
+		"cost": {
+			"input": 8,
+			"output": 40,
+			"cacheRead": 0.2,
+			"cacheWrite": 10
+		},
+		"contextWindow": 1000000,
+		"maxTokens": 128000,
+		"thinkingLevelMap": {
+			"off": null,
+			"xhigh": "xhigh",
+			"max": "max"
+		}
+	},
+	{
 		"id": "claude-haiku-4-5",
 		"name": "Claude Haiku 4.5 (latest)",
 		"reasoning": true,
